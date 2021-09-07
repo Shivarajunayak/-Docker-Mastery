@@ -15,3 +15,7 @@ docker --version
 docker info  
 ```
 
+### Command to check if client and server is working
+```
+docker version
+```
