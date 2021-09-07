@@ -35,3 +35,8 @@ You can also use ``` docker pull alpine:latest ``` instead of ``` docker image p
 
 ### Listing Images
 ```docker image ls ``` or ``` docker images```
+
+### Removing Image
+```docker container rm alpine:latest ```
+
+To confirm if it is deleted you can use ``` docker image ls```
