@@ -1,11 +1,17 @@
 # Docker-Mastery
 
 
-#### Some Basic Docker Commands
+## Some Basic Docker Commands
 
+
+### Display version & 
+```
+docker --version  
 
 ```
-docker --version  # Check the version of the Docker
-docker info  # Displays the kernel version, number of containers and images etc...
+
+### Displays the kernel version, number of containers and docker info   images etc...
+```
+docker info  
 ```
 
