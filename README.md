@@ -19,3 +19,11 @@ docker info
 ```
 docker version
 ```
+###  Pulling images from Repository
+```
+docker image pull <repository>:<tag>
+```
+<b>For example</b>: 
+```
+docker image pull nginx:latest
+```
