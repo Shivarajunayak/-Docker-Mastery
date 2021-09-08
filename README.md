@@ -65,3 +65,6 @@ Press ```ctrl PQ ``` to run conatiner image in background.
 
 ### Listing Docker Container
 ```docker ps ```  or ``` docker container ls```
+
+### Run back the container shell 
+```docker exec -it <uniq name or id> sh ```
