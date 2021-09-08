@@ -61,7 +61,7 @@ A container is the runtime instance of an image.
 ### Exit from container shell type exit
 ``` exit ```
 
-Press ```ctrl+PQ ``` to run conatiner image in background.
+Press ```ctrl+PQ ``` to run container image in background.
 
 ### Listing Docker Container
 ```docker ps ```  or ``` docker container ls```
