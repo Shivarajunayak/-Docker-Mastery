@@ -55,5 +55,5 @@ A container is the runtime instance of an image.
 
 Run a container from an image in an interactive mode
 ```
- docker run -it <repo name>/helloworld sh
+ docker run -it <user name>/helloworld sh
 ```
