@@ -9,7 +9,7 @@ Apt Package index will be updated
 ```
  sudo apt-get update 
 ```
-Install the latest v of Docker CE
+Install Docker CE and Containerd - Latest Version
 ```
 sudo apt-get install docker-ce docker-ce-cli containerd.io
 ```
