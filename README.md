@@ -68,3 +68,6 @@ Press ```ctrl PQ ``` to run conatiner image in background.
 
 ### Run back the container shell 
 ```docker exec -it <uniq name or id> sh ```
+
+### Stop container
+```docker container stop <uniq name or id>  ```
