@@ -4,10 +4,19 @@
 ## Some Basic Docker Commands
 
 
+### Installing Docker CE in Ubnutu
+Apt Package index will be updated
+```
+ sudo apt-get update 
+```
+Install the latest v of Docker CE
+```
+sudo apt-get install docker-ce docker-ce-cli containerd.io
+```
+
 ### Display version & 
 ```
 docker --version  
-
 ```
 
 ### Displays the kernel version, number of containers and docker info   images etc...
@@ -40,3 +49,4 @@ You can also use ``` docker pull alpine:latest ``` instead of ``` docker image p
 ```docker container rm alpine:latest ```
 
 To confirm if it is deleted you can use ``` docker image ls```
+
