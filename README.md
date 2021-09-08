@@ -50,3 +50,10 @@ You can also use ``` docker pull alpine:latest ``` instead of ``` docker image p
 
 To confirm if it is deleted you can use ``` docker image ls```
 
+### Docker Container
+A container is the runtime instance of an image.
+
+Run a container from an image in an interactive mode
+```
+ docker run -it <repo name>/helloworld sh
+```
