@@ -90,3 +90,5 @@ Press ```ctrl+PQ ``` to run container image in background.
 
 ### Accessing the running container in browser
 ``` docker run -d --name mycontainer -p 8100:80 <repo name>/helloworld```
+
+<i><b>Note</b>: write ```localhost:8100``` in your browser now to see the output</i>
