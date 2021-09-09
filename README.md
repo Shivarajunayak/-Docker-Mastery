@@ -85,4 +85,5 @@ Press ```ctrl+PQ ``` to run container image in background.
 
 <i><b>Note</b>: Removing container will now permanently delete files inside container filesystem</i>
 
-### 
+### Renaming the container
+``` docker run -d --name mycontainer <repo name>/helloworld ```
