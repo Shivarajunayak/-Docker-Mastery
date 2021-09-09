@@ -71,3 +71,8 @@ Press ```ctrl+PQ ``` to run container image in background.
 
 ### Stop container
 ```docker container stop <uniq name or id>  ```
+
+### Listing container that are running in the background
+```docker container ls -a``` or ```docker ps -a```
+
+
