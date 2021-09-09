@@ -75,6 +75,14 @@ Press ```ctrl+PQ ``` to run container image in background.
 ### Listing container that are running in the background
 ```docker container ls -a``` or ```docker ps -a```
 
-## Restart the stopped container
+### Restart the stopped container
 ```  docker container start <uniq name or id> ```
-<i>Note: Stopping a container does not destroy you data inside file system of container </i>
+
+<i><b>Note</b>: Stopping a container does not destroy you data inside file system of container </i>
+
+### Remove container permanently
+``` docker container rm <container uniq name or id>```
+
+<i><b>Note</b>: Removing container will now permanently delete files inside container filesystem</i>
+
+### 
