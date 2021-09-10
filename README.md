@@ -99,8 +99,8 @@ run as a container is called “containerizing”. Sometimes
 we call it “Dockerizing” </b>
 ### Containerization process for an app:
 
-1. Start with your application code
-2. Create a Dockerfile that describes your app, its dependencies, and how to run it
-3. Feed this Dockerfile into the docker image build
+<b>1.</b> Start with your application code
+<b>2.</b> Create a Dockerfile that describes your app, its dependencies, and how to run it
+<b>3.</b> Feed this Dockerfile into the docker image build
 command to create an image
-4. Create and run a container from that image
+<b>4.</b> Create and run a container from that image
