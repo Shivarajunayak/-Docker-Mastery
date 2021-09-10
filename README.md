@@ -97,4 +97,10 @@ Press ```ctrl+PQ ``` to run container image in background.
 <b>The process of taking an application and configuring it to
 run as a container is called “containerizing”. Sometimes
 we call it “Dockerizing” </b>
-### 
+### Containerization process for an app:
+
+1. Start with your application code
+2. Create a Dockerfile that describes your app, its dependencies, and how to run it
+3. Feed this Dockerfile into the docker image build
+command to create an image
+4. Create and run a container from that image
