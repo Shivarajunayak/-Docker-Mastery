@@ -93,12 +93,10 @@ Press ```ctrl+PQ ``` to run container image in background.
 
 <i><b>Note</b>: write ```localhost:8100``` in your browser now to see the output</i>
 
+### Containerization
+<i>The process of taking an application and configuring it to run as a container is called “containerizing”. Sometimes we call it “Dockerizing” </i>
 
-<b>The process of taking an application and configuring it to
-run as a container is called “containerizing”. Sometimes
-we call it “Dockerizing” </b>
 ### Containerization process for an app:
-
 <b>1.</b> Start with your application code
 <b>2.</b> Create a Dockerfile that describes your app, its dependencies, and how to run it
 <b>3.</b> Feed this Dockerfile into the docker image build
