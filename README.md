@@ -92,3 +92,9 @@ Press ```ctrl+PQ ``` to run container image in background.
 ``` docker run -d --name mycontainer -p 8100:80 <repo name>/helloworld```
 
 <i><b>Note</b>: write ```localhost:8100``` in your browser now to see the output</i>
+
+
+<b>The process of taking an application and configuring it to
+run as a container is called “containerizing”. Sometimes
+we call it “Dockerizing” </b>
+### 
