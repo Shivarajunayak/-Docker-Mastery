@@ -109,6 +109,5 @@ It is a simple text file with instructions on how to build your images.
 1. To describe the application
 2. To tell Docker how to containerize the application (create an image with the app inside)
 
-<i><b>Note</b>: Docker file cannot be reverse engineered from any
-image</i>
+<i><b>Note</b>: Docker file cannot be reverse engineered from any image</i>
 
