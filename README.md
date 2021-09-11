@@ -102,3 +102,13 @@ Press ```ctrl+PQ ``` to run container image in background.
 <b>3.</b> Feed this Dockerfile into the docker image build
 command to create an image
 <b>4.</b> Create and run a container from that image
+
+### Docker File
+It is a simple text file with instructions on how to build your images.
+<b>Purpose:</b>:
+1. To describe the application
+2. To tell Docker how to containerize the application (create an image with the app inside)
+
+<i><b>Note</b>: Docker file cannot be reverse engineered from any
+image</i>
+
