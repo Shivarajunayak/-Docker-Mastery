@@ -128,7 +128,7 @@ So, now we have 2 options:
 2. Or we  use docker tag command which could help us in making a new image from existing image with different name tags
 ```docker tag first-docker-app <username>/first-docker-app```
 
-Now we can publish our image to Docker Hub registry.
-
+<b>Now we can publish our image to Docker Hub registry.</b>
+```docker push <username>/first-docker-app ```
 
 
