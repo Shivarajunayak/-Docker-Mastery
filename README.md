@@ -119,4 +119,6 @@ Its main advantage is portability which means you can use it from anywhere in th
 <i><b>Note</b>: One thing important to know is for pushing an image to docker hub, we need our images to be built as ```username/repository:tag```
 </i>
 
+Previously we created image with ```docker build -t first-docker-app .``` which does not include username
+
 
