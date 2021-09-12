@@ -131,4 +131,5 @@ So, now we have 2 options:
 <b>Now we can publish our image to Docker Hub registry.</b>
 ```docker push <username>/first-docker-app ```
 
+<i>Now we can pull our image using docker pull from anywhere in the world and deploy with docker run command. </i>
 
