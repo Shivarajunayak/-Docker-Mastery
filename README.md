@@ -115,3 +115,8 @@ It is a simple text file with instructions on how to build your images.
 Its main advantage is portability which means you can use it from anywhere in the world.
 1. First you have to save your image to registry like docker hub
 2. So, for that you need to sign up for the account first at https://hub.docker.com
+
+<i><b>Note</b>: One thing important to know is for pushing an image to docker hub, we need our images to be built as ```username/repository:tag```
+</i>
+
+
