@@ -126,7 +126,7 @@ So, now we have 2 options:
 1. Either we create image from same Docker file  
 ```image docker build -t <username>/first-docker-app .```
 2. Or we  use docker tag command which could help us in making a new image from existing image with different name tags
-```docker tag first-docker-app aamirpinger/first-docker-app```
+```docker tag first-docker-app <username>/first-docker-app```
 
 
 
