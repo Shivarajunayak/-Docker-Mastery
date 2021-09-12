@@ -111,3 +111,7 @@ It is a simple text file with instructions on how to build your images.
 
 <i><b>Note</b>: Docker file cannot be reverse engineered from any image</i>
 
+### PUSHING IMAGES
+Its main advantage is portability which means you can use it from anywhere in the world.
+1. First you have to save your image to registry like docker hub
+2. So, for that you need to sign up for the account first at https://hub.docker.com
