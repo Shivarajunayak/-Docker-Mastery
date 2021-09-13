@@ -136,3 +136,6 @@ So, now we have 2 options:
 ## Inspect the Docker Image
 To inspect the layer of the image 
 ```docker history <image name>```
+And
+```docker inspect <image name>```
+
