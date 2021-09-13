@@ -133,3 +133,6 @@ So, now we have 2 options:
 
 <i>Now we can pull our image using docker pull from anywhere in the world and deploy with docker run command. </i>
 
+## Inspect the Docker Image
+To inspect the layer of the image 
+```docker history <image name>```
