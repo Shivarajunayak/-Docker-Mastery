@@ -66,7 +66,7 @@ Press ```ctrl+PQ ``` to run container image in background.
 ### Listing Docker Container
 ```docker ps ```  or ``` docker container ls```
 
-### Run back the container shell 
+### Attaching shell to the containers that are running in bg 
 ```docker exec -it <uniq name or id> sh ```
 
 ### Stop container
