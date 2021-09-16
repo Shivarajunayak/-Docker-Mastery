@@ -14,7 +14,7 @@ Install Docker CE and Containerd - Latest Version
 sudo apt-get install docker-ce docker-ce-cli containerd.io
 ```
 
-### Display version & 
+### Display version 
 ```
 docker --version  
 ```
