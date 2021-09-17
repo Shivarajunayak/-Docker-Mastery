@@ -139,3 +139,4 @@ To inspect the layer of the image
 And
 ```docker inspect <image name>```
 
+``` docker image insepct <image name>:<tag>```
