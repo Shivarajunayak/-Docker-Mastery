@@ -19,7 +19,7 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io
 docker --version  
 ```
 
-### Displays the kernel version, number of containers and docker info   images etc...
+### Displays the kernel version, number of containers and docker info   images etc... or Simply Docker is running or not
 ```
 docker info  
 ```
@@ -144,7 +144,7 @@ And
 or
 ``` docker image pull <repo name>:<tag>```
 
-## View the hash code/ digest of an image
+## View the image hash code/ digest of an image
 ``` docker image ls --digests <image name>```
 For example
 ``` docker image ls --digests alpine```
@@ -154,3 +154,9 @@ First remove the previous image (note its digests)
 ```docker image rm alpine:latest ```
 Now,
 ```docker image pull alpine@sha256:c0537...7c0a7726c88e2bb7584dc96```
+
+## Delete all the images at once
+It will list all the images unique id
+``` docker image ls -q  ```
+Now, you can delete all the images with their id
+```docker image rm $(docker imag ls -q) -f ```
