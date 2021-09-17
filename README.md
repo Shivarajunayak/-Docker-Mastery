@@ -148,3 +148,9 @@ or
 ``` docker image ls --digests <image name>```
 For example
 ``` docker image ls --digests alpine```
+
+## Pulling an image with digests
+First remove the previous image (note its digests)
+```docker image rm alpine:latest ```
+Now,
+```docker image pull alpine@sha256:c0537...7c0a7726c88e2bb7584dc96```
