@@ -143,3 +143,8 @@ And
 ``` docker image insepct <image name>:<tag>```
 or
 ``` docker image pull <repo name>:<tag>```
+
+## View the hash code/ digest of an image
+``` docker image ls --digests <image name>```
+For example
+``` docker image ls --digests alpine```
