@@ -140,3 +140,5 @@ And
 ```docker inspect <image name>```
 
 ``` docker image insepct <image name>:<tag>```
+or
+``` docker image pull <repo name>:<tag>```
