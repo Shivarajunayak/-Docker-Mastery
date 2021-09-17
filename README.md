@@ -58,7 +58,8 @@ A container is the runtime instance of an image.
  docker run -it <user name>/helloworld sh
 ```
 
-### Exit from container shell type exit
+
+### Exit the container without terminating it
 ``` exit ```
 
 Press ```ctrl+PQ ``` to run container image in background.
